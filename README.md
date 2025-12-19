@@ -41,15 +41,12 @@ pip install requests winotify beautifulsoup4
 ```
 python edisu_checker.py
 ```
-### Run in background on startup (Windows)
+### Run on startup (recommended)
 
-Example `start.bat`:
-```
-@echo off
-pythonw path\to\edisu_checker.py
-```
-> Replace `path\to\` with the actual path of `edisu_checker.py`. <br>
-> **Note:** Put the .bat file on your Startup folder to set the script to run when the PC starts
+1. Keep the project folder anywhere on your system.
+2. Open the Startup folder (`Win + R` → `shell:startup`).
+3. Create a shortcut to `edisu_checker_starter.bat` inside the Startup folder.
+
 ## ⚙️ Configuration
 
 Edit these variables in the script:
@@ -66,4 +63,5 @@ URL = "https://www.edisu.piemonte.it/en/news" # Change this URL to use the bot f
 ## 📜 License
 
 MIT License
+
 
