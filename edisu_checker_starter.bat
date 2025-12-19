@@ -1,3 +1,3 @@
 @echo off
-start "" /min pythonw "C:\Users\user\Desktop\self_projects\edisu_checker.py"
+start "" /min pythonw "%~dp0edisu_checker.py"
 exit
