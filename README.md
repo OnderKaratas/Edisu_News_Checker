@@ -2,6 +2,17 @@
 
 A background script that monitors the EDISU news page and notifies the user when changes occur. Runs once every hour after the first execution.
 
+## ⚠️ Disclaimer
+
+This project is intended for personal use only.
+
+- It performs infrequent HTTP requests (default: once per hour)
+- It accesses only publicly available pages
+- It does not attempt to bypass any protections
+- It does not scrape or redistribute content
+
+Users are responsible for configuring request intervals responsibly.
+
 ## 📌 Features
 
 - Periodically checks the EDISU news page
@@ -63,5 +74,6 @@ URL = "https://www.edisu.piemonte.it/en/news" # Change this URL to use the bot f
 ## 📜 License
 
 MIT License
+
 
 
