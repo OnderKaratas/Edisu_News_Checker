@@ -1,0 +1,11 @@
+# Runtime files
+edisu_hash.txt
+edisu.log
+news.txt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS specific
+Thumbs.db
