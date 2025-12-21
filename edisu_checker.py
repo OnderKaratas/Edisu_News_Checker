@@ -66,10 +66,6 @@ def extract_news_section(html):
     if not news_div:
         return ""
     
-    with open(CONTENT_FILE, "a", encoding="utf-8") as f:
-        f.write(f"\n--- {time.ctime()} ---\n")
-        f.write(news_div.get_text(separator=" ", strip=True))
-    
     return news_div.get_text(separator=" ", strip=True)
 
 #Old version with only prints instead of toast notifications
